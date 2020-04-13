@@ -1,0 +1,22 @@
+{
+  "name": "covid19-tracker-app",
+  "version": "1.0.0",
+  "description": "Tracking Corona cases",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmaheri/covid19-tracker-app.git"
+  },
+  "keywords": [
+    "covid19"
+  ],
+  "author": "Gregory Maheri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmaheri/covid19-tracker-app/issues"
+  },
+  "homepage": "https://github.com/gmaheri/covid19-tracker-app#readme"
+}
