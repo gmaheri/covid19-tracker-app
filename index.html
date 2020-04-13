@@ -3,37 +3,73 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awsome.min.css">
+
       <link rel="stylesheet" href="style.css">
       <script type="text/javascript" src=app.js></script>
     <title>Covid19 Tracker</title>
   </head>
   <body>
-    <h1 class="title">COVID-19 Tracker</h1>
-    <h2 class="subtitle">Latest updates on Corona Virus in Kenya.</h2>
-    <div class="data-container">
-      <div class="stats-container">
-        <h4>Cases</h4>
-        <h1 id="cases"></h1>
-        <h4>Deaths</h4>
-        <h1 id="deaths"></h1>
-        <h4>Percentage Deaths</h4>
-        <h1 id="percent"></h1>
+
+    <section id="data">
+      <div class="container my-3 py-5 text-center">
+        <div class="row mb-5">
+          <div class="col">
+            <h1>COVID-19 Tracker</h1>
+            <p class="mt-3">Latest updates on Corona Virus in Kenya.</p>
+          </div>
+        </div>
+
+        <div class="row">
+
+              <div class="col-lg-3 col-md-6 mb-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="img/kenyaflag.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                    <h4>Country</h3>
+                    <h1 id="country">Kenya</h1>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 mb-2">
+                <div class="card">
+                  <div class="card-body">
+                  <img src="img/cases.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                  <h4>Cases</h3>
+                  <h1 id="cases"></h1>
+                  </div>
+                </div>
+              </div>
+
+            <div class="col-lg-3 col-md-6 mb-2">
+              <div class="card">
+                <div class="card-body">
+                <img src="img/death.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                <h4>Deaths</h3>
+                <h1 id="deaths"></h1>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-3">
+              <div class="card">
+                <div class="card-body">
+                <img src="img/update.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                <h4>Last updated</h3>
+                <h1 id="update"></h1>
+                </div>
+              </div>
+            </div>
+
+        </div>
+        <h1 class="footer"> Developed by:<a href="https://twitter.com/gmaheri" target="_blank"> G. Maheri</a>  | Data Source: <a href="https://systems.jhu.edu/research/public-health/ncov" target="_blank">John HopKins University.</a></h1>
       </div>
-      <div class="location-container">
-        <h4>Country</h4>
-        <h1 id="country">Kenya</h1>
-        <h4>Population</h4>
-        <h1 id="population"></h1>
-        <h4>Last Updated</h4>
-        <h1 id="update"></h1>
-      </div>
-    </div>
-    <h1 class="footer"> Developed by:<a href="https://twitter.com/gmaheri" target="_blank"> G. Maheri</a>  | Information Source: <a href="https://systems.jhu.edu/research/public-health/ncov" target="_blank">John HopKins University</a></h1>
-
-
-
+    </section>
 
 
     <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

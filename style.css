@@ -1,12 +1,40 @@
-*{
+/*{
   margin: o;
   padding: o;
 }
-
-html{
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+}
+*/
+/* html{
   height: 100;
   width: 100;
+} */
+/*
+#data img {
+  margin-top: -50px;
 }
+
+#data .card {
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #e74c3c;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+
+#data .card:hover {
+  background: #e74c3c;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9E9E9E;
+
+}
+
 h1, h2 {
   font-family: sans-serif;
   font-weight: 300;
@@ -48,7 +76,7 @@ h4{
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 5px;
-}
+} */
 .footer{
   font-family: sans-serif;
   bottom: 0;
